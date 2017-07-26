@@ -19,13 +19,6 @@ setup(
     author_email='tech@cfpb.gov',
     maintainer='cfpb',
     maintainer_email='tech@cfpb.gov',
-    packages=['ccdb5_ui'],#find_packages(),
-    package_data={
-        'ccdb5_ui': [
-            'templates/ccdb-main.html',
-            'static/*'
-        ]
-    },
     include_package_data=True,
     description=u'Consumer Complaint Database UI',
     classifiers=[
