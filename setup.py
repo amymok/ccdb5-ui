@@ -22,7 +22,7 @@ setup(
     packages=find_packages(),
     package_data={
         'ccdb5_ui': [
-            'templates/index.html',
+            'templates/ccdb5-main.html',
             'static/*'
         ]
     },
