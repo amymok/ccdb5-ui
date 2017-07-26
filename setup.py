@@ -19,7 +19,7 @@ setup(
     author_email='tech@cfpb.gov',
     maintainer='cfpb',
     maintainer_email='tech@cfpb.gov',
-    packages=find_packages(),
+    packages=['ccdb5_ui'],#find_packages(),
     package_data={
         'ccdb5_ui': [
             'templates/ccdb-main.html',
