@@ -1,2 +1,6 @@
 include CHANGELOG.md README.md INSTALL.md LICENSE
-recursive-include ccdb5_ui *.py *.html *.js
+recursive-include ccdb5_ui *.py *.html *.js *.js.map
+recursive-include config *.py *.html *.js
+recursive-include public *.py *.html *.js
+recursive-include scripts *.py *.html *.js
+recursive-include src *.py *.html *.js *.jsx *.less
