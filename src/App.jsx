@@ -79,8 +79,8 @@ export class App extends React.Component {
       <Provider store={store}>
         <Router>
           <Switch>
-            <Route exact path="/" component={SearchComponents}/>
             <Route path="/detail/:id" component={DetailComponents}/>
+            <Route component={SearchComponents}/>
           </Switch>
         </Router>
       </Provider>
